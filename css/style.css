@@ -191,6 +191,31 @@ html {
     line-height: 20px;
 }
 
+.properties {
+    background-color: var(--color-light-gray);
+}
+
+.properties__categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.categories__type {
+    height: 37rem;
+    margin: 3.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.type__image {
+    height: 100%;
+    width: 66%;
+    background-image: url('../assets/Macbook.png');
+}
+
+/*ogarnąć sekcję z obrazkami*/
+
 
 
 
