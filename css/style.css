@@ -548,7 +548,7 @@ body {
 /*contact*/
 
 .contact {
-    margin: 18rem 30rem 5rem;
+    margin: 21rem 30rem 5rem;
     display: flex;
     justify-content: center;
 }
@@ -624,6 +624,50 @@ label {
 .form__consent {
     margin-top: 3rem;
     display: flex;
+}
+
+.check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.consent__check {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: var(--color-white);
+    border: 0.1rem solid var(--color-light-gray);
+    border-radius: 0.4rem;
+}
+
+.check:hover input ~ .marker {
+    background-color: var(--color-light-gray);
+}
+
+
+.check input:checked ~ .marker {
+    background-image: url(../assets/Checkmark.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
 }
 
 .consent__text {
