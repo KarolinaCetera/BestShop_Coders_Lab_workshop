@@ -80,6 +80,8 @@ body {
     cursor: pointer;
 }
 
+/*banner*/
+
 .banner {
     height: 100vh;
     display: flex;
@@ -120,6 +122,8 @@ body {
     background-color: var(--color-white);
     border: 0.2rem solid var(--color-blue);
 }
+
+/*why us*/
 
 .stats {
     margin: 0 auto;
@@ -182,7 +186,7 @@ body {
 .details__img--pic {
     position: absolute;
     top: 0.7rem;
-    left: 3rem;
+    left: 3.5rem;
 }
 
 .details__numbers {
@@ -200,7 +204,7 @@ body {
     line-height: 2rem;
 }
 
-/*sekcja z trzema boxami*/
+/*benefits*/
 
 .advantages__content {
     background-color: var(--color-light-gray);
@@ -216,8 +220,6 @@ body {
     width: 100rem;
     height: 33rem;
 }
-
-/*zwykle boxy i cechy wspólne*/
 
 .content.ordinary {
     background-color: var(--color-white);
@@ -258,8 +260,6 @@ body {
     height: 0.1rem;
 }
 
-/*macbook*/
-
 .type__macbook .text {
     padding: 9.3rem 5rem 9.7rem 3.5rem;
 }
@@ -288,8 +288,6 @@ body {
     left: -10%;
     z-index: 2;
 }
-
-/*iphone*/
 
 .type__iphone {
     flex-direction: row-reverse;
@@ -325,8 +323,6 @@ body {
     width: 110%;
     height: auto;
 }
-
-/*inny box*/
 
 .content.different {
     display: flex;
@@ -385,7 +381,6 @@ body {
 
 .pricing__offers {
     width: 120rem;
-    /*margin-bottom: 11rem;*/
     display: flex;
     justify-content: center;
 }
@@ -506,8 +501,6 @@ body {
     background-color: var(--color-blue);
 }
 
-/*premium*/
-
 .offers__offer.premium {
     border: 0.1rem solid var(--color-mint);
 }
@@ -581,6 +574,7 @@ body {
     font-size: 1.6rem;
     font-weight: 300;
     color: var(--color-light-gray);
+    text-decoration: none;
 }
 
 .contact__form {
@@ -686,6 +680,12 @@ label {
     border-radius: 3.5rem;
     border: 1px solid transparent;
     transition: .3s;
+}
+
+.form__button:hover {
+    background-color: var(--color-white);
+    border: 0.1rem solid var(--color-blue);
+    color: var(--color-blue)
 }
 
 /*footer*/
