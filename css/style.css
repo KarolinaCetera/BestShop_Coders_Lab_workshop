@@ -369,11 +369,12 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .pricing__title {
+    margin-bottom: 6rem;
     font-family: var(--font-raleway);
     font-size: 3.6rem;
     text-align: center;
@@ -536,7 +537,7 @@ body {
 /*contact*/
 
 .contact {
-    margin: 10rem 30rem 10rem;
+    padding: 10rem 30rem 10rem;
     display: flex;
     justify-content: center;
 }
