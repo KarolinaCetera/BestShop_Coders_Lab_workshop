@@ -1,4 +1,17 @@
 # BestShop_Coders_Lab_workshop
-First workshop realised during Coders Lab bootcamp. I created simple landing page based on given layout. I used plain HTML and CSS as an exercise after first module. I used also BEM Methodology to improve my skills since the beginning. 
 
-https://best-shop.netlify.com/
+<h2>Description</h2>
+
+First workshop realised during Coders Lab bootcamp. Simple landing page based on layout created in Adobe XD. 
+
+<h2>Technologies</h2>
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>BEM Methodology</li>
+  <li>Webpack</li>
+  <li>Firebase</li>
+</ul>
+
+
